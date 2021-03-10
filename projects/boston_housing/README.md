@@ -11,9 +11,9 @@ This project requires **Python** and the following Python libraries installed:
 - [matplotlib](http://matplotlib.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
 
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
+You will also need to have software installed to run and execute a [Jupyter Notebook](http://jupyter.org/install.html).
 
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. 
+If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](https://www.anaconda.com/download/) distribution of Python, which already has the above packages and more included. 
 
 ### Code
 
@@ -30,12 +30,16 @@ or
 ```bash
 jupyter notebook boston_housing.ipynb
 ```
+or open with Juoyter Lab
+```bash
+jupyter lab
+```
 
 This will open the Jupyter Notebook software and project file in your browser.
 
 ### Data
 
-The modified Boston housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Housing).
+The modified Boston housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/machine-learning-databases/housing/).
 
 **Features**
 1.  `RM`: average number of rooms per dwelling
